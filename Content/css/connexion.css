@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  img{
+    max-width: 15%;
+  }
+  
+  body{
+    background: #5a80e7;
+  }
+  /*{
+    position: fixed;
+    z-index: 10;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    
+    justify-content: center;
+}
+  
+   /* Bordered form */
+  form {
+
+    width:50%;
+    padding: 30px;
+    margin: auto;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+  
+   
+   /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+   
+   /* Set a style for all buttons */
+  input[type=submit] {
+    background-color: #53af57;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  input[type=submit]:hover {
+    background-color: white;
+    color: #53af57;
+    border: 1px solid #53af57;
+  }
+label{
+    font-size: 40px;
+    display:inline-table;
+    text-align: center;
+    width: 38%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.inscription{
+  text-align:right;
+}

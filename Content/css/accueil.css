@@ -1,0 +1,47 @@
+/*nav{
+    display: grid;
+    position: fixed;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #f2f2f2;
+  }
+  
+th {
+    background-color: #f2f2f2;
+  }
+  
+tr:hover {
+    background-color: #003cff;
+  }*/
+  
+img{
+  max-width: 15%;
+}
+
+main {
+    margin-left: 250px; /* Ajoute une marge à gauche pour laisser de l'espace pour le menu déroulant */
+    transition: margin-left 0.3s ease; /* Ajoute une transition fluide pour le contenu principal lorsque le menu est déployé ou replié */
+}
+
+/* Style pour le contenu principal */
+h1, table {
+    margin-left: 20px; /* Ajoute une marge à gauche pour aligner le contenu avec le menu déroulant */
+}
+
+/*
+.table-accueil th, td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.table-accueil th {
+  background-color: #f2f2f2;
+}
+
+.table-accueil tr:hover {
+  background-color: #003cff;
+}*/
